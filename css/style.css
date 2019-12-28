@@ -1,0 +1,88 @@
+body {
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	font-family: 'Raleway', sans-serif;
+	font-size:12pt;
+	/*font-weight: 300;*/
+	padding: 20px 20px 12px 20px;
+	color: #000000;
+}
+
+p {
+	margin-top: 12px;
+}
+
+h1{
+	font-family: 'Bitter', serif;
+	margin-bottom:40px;
+	font-size:20pt;
+}
+
+h2{
+	font-family: 'Bitter', serif;
+	margin-top:70px;
+	margin-bottom:20px;
+	color:#000;
+	font-size:16pt;
+}
+
+div#side{
+	width:20%;
+	float:left;
+	min-width:150px;
+	padding-top:5px;
+	margin-right:10px;
+}
+
+#headshot{
+	margin-bottom:20px;
+	/*margin-top:20px;
+	margin-bottom:10px;*/
+	width: 140px;
+}
+
+div#contact{
+	font-size:10pt;
+}
+
+div#navigation {
+	text-align:left;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top:20px;
+}
+
+div#main{
+	max-width:1000px;
+}
+
+div.news{
+}
+
+.publication_data{
+	padding-left:20px;
+}
+
+.publication_img{
+	width:150px;
+}
+
+.publication_data {
+	padding-bottom:20px;
+}
+
+.publication_data .title{
+	font-weight: bold;
+}
+
+.publication_data .venue{
+	font-style: italic;
+}
+
+a.nav, a.nav:visited{
+  color: #6e6e6e;
+  font-weight: normal;
+}
+
+a:hover, a.nav:hover{
+  color: #0ea2ab;
+}
