@@ -52,7 +52,7 @@ div#navigation {
 }
 
 div#main{
-	max-width:1000px;
+	max-width:1200px;
 }
 
 div.news{
@@ -75,7 +75,7 @@ div.news{
 }
 
 .publication_data .venue{
-	font-size:12pt;
+	font-size: 10pt;
 	font-style: italic;
 }
 
