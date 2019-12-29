@@ -73,6 +73,7 @@ div#main{
 
 .publication_data .authors{
 	font-size: 18pt;
+	font-style: italic;
 }
 
 .publication_data .venue{
