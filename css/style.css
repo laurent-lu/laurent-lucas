@@ -71,16 +71,20 @@ div#main{
 	font-weight: bold;
 }
 
+.publication_data .authors{
+	font-size: 18pt;
+}
+
 .publication_data .venue{
 	font-size: 18pt;
 	font-style: italic;
 }
 
 a.nav, a.nav:visited{
-  color: #6e6e6e;
-  font-weight: normal;
+	color: #6e6e6e;
+	font-weight: normal;
 }
 
 a:hover, a.nav:hover{
-  color: #0ea2ab;
+	color: #0ea2ab;
 }
