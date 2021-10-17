@@ -1,0 +1,40 @@
+<!-- document.write('')-->
+<!-- generated on Jan 12, 2020 at 11:30 pm -->
+
+document.write('<tr><td><img class="publication_img" src="img/teaser/cgf2008_teaser.png"><p></p></td>')
+document.write('  <td class="publication_data">')
+document.write('    <div class="title"><i class="fa fa-book" aria-hidden="true"></i> A Dynamic Model of Cracks Development Based on a 3D Discrete Shrinkage Volume Propagation</div>')
+document.write('    <div class="authors">G. Valette, S. Prévost, L. Lucas and J. Léonard</div>')
+document.write('    <div class="venue">Blackwell Publishers, Computer Graphics Forum, 27(1):47-62, 2008. DOI:10.1111/j.1467-8659.2007.01042.x</div>')
+document.write('    <div class="links">')
+document.write('      <i class="fa fa-file-pdf-o" aria-hidden="true"></i> pdf')
+document.write('      &nbsp;')
+document.write('    </div>')
+document.write('  </td>')
+document.write('</tr>')
+
+document.write('<tr><td><img class="publication_img" src="img/teaser/no-image-available.png"><p></p></td>')
+document.write('  <td class="publication_data">')
+document.write('    <div class="title"><i class="fa fa-users" aria-hidden="true"></i> A Non-Modular Cellular DEVS Model of the Degradation of a Cultivated Soil Surface by Rainfall</div>')
+document.write('    <div class="authors">G. Valette, S. Prévost, L. Lucas and J. Léonard</div>')
+document.write('    <div class="venue">22nd European Conference on Modelling and Simulation (ECMS 2008), Nicosia, Cyprus, p 285-291, June 2008. DOI:10.7148/2008-0285</div>')
+document.write('    <div class="links">')
+document.write('      <i class="fa fa-file-pdf-o" aria-hidden="true"></i> pdf')
+document.write('      &nbsp;')
+document.write('    </div>')
+document.write('  </td>')
+document.write('</tr>')
+
+document.write('<tr><td><img class="publication_img" src="img/teaser/no-image-available.png"><p></p></td>')
+document.write('  <td class="publication_data">')
+document.write('    <div class="title"><i class="fa fa-users" aria-hidden="true"></i> A Discrete Modelling of Soil Fragments Transport by Runoff</div>')
+document.write('    <div class="authors">G. Valette, S. Prévost, L. Lucas and J. Léonard</div>')
+document.write('    <div class="venue">14th Discrete Geometry for Computer Imagery (DGCI 2008), LNCS 4992, Lyon, France, p 482-494, April 2008. DOI:10.1007/978-3-540-79126-3_43</div>')
+document.write('    <div class="links">')
+document.write('      <i class="fa fa-file-pdf-o" aria-hidden="true"></i> pdf')
+document.write('      &nbsp;')
+document.write('    </div>')
+document.write('  </td>')
+document.write('</tr>')
+
+<!-- document.write('')-->

@@ -1,0 +1,40 @@
+<!-- document.write('')-->
+<!-- generated on Jan 11, 2020 at 11:00 pm -->
+
+document.write('<tr><td><img class="publication_img" src="img/teaser/video3D-book-2013_teaser.png"><p></p></td>')
+document.write('  <td class="publication_data">')
+document.write('    <div class="title"><i class="fa fa-book" aria-hidden="true"></i> Vidéo 3D capture, traitement et diffusion</div>')
+document.write('    <div class="authors">L. Lucas, C. Loscos and Y. Remion</div>')
+document.write('    <div class="venue">Hermès Science Publications, Traité IC2, série Signal et Image, 2013. ISBN 978-2-7462-4545-7</div>')
+document.write('    <div class="links">')
+document.write('      <a href="https://editions.lavoisier.fr/informatique/video-3d/lucas/hermes-science-publications/traite-ic2/livre/9782746245457" target="_blank"> <i class="fa fa-link" aria-hidden="true"></i> web</a>')
+document.write('      &nbsp;')
+document.write('    </div>')
+document.write('  </td>')
+document.write('</tr>')
+
+document.write('<tr><td><img class="publication_img" src="img/teaser/3Dvideo-book-2013_teaser.png"><p></p></td>')
+document.write('  <td class="publication_data">')
+document.write('    <div class="title"><i class="fa fa-book" aria-hidden="true"></i> 3D Video from Capture to Diffusion</div>')
+document.write('    <div class="authors">L. Lucas, C. Loscos and Y. Remion</div>')
+document.write('    <div class="venue">Wiley-ISTE, 2013. ISBN 978-1-84821-507-8, DOI:10.1002/9781118761915</div>')
+document.write('    <div class="links">')
+document.write('      <a href="https://www.wiley.com/en-us/3D+Video%3A+From+Capture+to+Diffusion-p-9781118761915" target="_blank"> <i class="fa fa-link" aria-hidden="true"></i> web</a>')
+document.write('      &nbsp;')
+document.write('    </div>')
+document.write('  </td>')
+document.write('</tr>')
+
+document.write('<tr><td><img class="publication_img" src="img/teaser/no-image-available.png"><p></p></td>')
+document.write('  <td class="publication_data">')
+document.write('    <div class="title"><i class="fa fa-users" aria-hidden="true"></i> RECOVER3D: A hybrid multi-view system for 4D reconstruction of moving actors</div>')
+document.write('    <div class="authors">L. Lucas, P. Souchet, M. Ismael, O. Nocent, C. Niquin, C. Loscos, L. Blache, S. Prévost and Y. Remion</div>')
+document.write('    <div class="venue">4th International Conference and Exhibition on 3D Body Scanning Technologies (3DBST), Hometrica Consulting, Long Beach, CA, USA, p 219-230, November 2013. DOI:10.15221/13.219</div>')
+document.write('    <div class="links">')
+document.write('      <i class="fa fa-file-pdf-o" aria-hidden="true"></i> pdf')
+document.write('      &nbsp;')
+document.write('    </div>')
+document.write('  </td>')
+document.write('</tr>')
+
+<!-- document.write('')-->

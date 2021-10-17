@@ -1,0 +1,40 @@
+<!-- document.write('')-->
+<!-- generated on Jan 3, 2020 at 22:30 pm -->
+
+document.write('<tr><td><img class="publication_img" src="img/teaser/croh2009_teaser.png"><p></p></td>')
+document.write('  <td class="publication_data">')
+document.write('    <div class="title"><i class="fa fa-book" aria-hidden="true"></i> Imaging techniques to evaluate the response to treatment in oncology: Current standards and perspectives</div>')
+document.write('    <div class="authors">C.D. Marcus, V. Ladam-Marcus, C. Cucu, O. Bouché, L. Lucas and C. Hoeffel</div>')
+document.write('    <div class="venue">Elsevier, Critical Reviews in Oncology/Hematology, 72(3):217-238, 2009. DOI:10.1016/j.critrevonc.2008.07.012</div>')
+document.write('    <div class="links">')
+document.write('      <i class="fa fa-file-pdf-o" aria-hidden="true"></i> pdf')
+document.write('      &nbsp;')
+document.write('    </div>')
+document.write('  </td>')
+document.write('</tr>')
+
+document.write('<tr><td><img class="publication_img" src="img/teaser/no-image-available.png"><p></p></td>')
+document.write('  <td class="publication_data">')
+document.write('    <div class="title"><i class="fa fa-users" aria-hidden="true"></i> Shape-Adaptive DCT for Color Object-Based Coding</div>')
+document.write('    <div class="authors">D. Samai, N. Doghmane, M. Bedda and L. Lucas</div>')
+document.write('    <div class="venue">3rd International Conference on Electrical Engineering Design and Technologies (ICEEDT), Sousse, Tunisia, November 2009.</div>')
+document.write('    <div class="links">')
+document.write('      <i class="fa fa-file-pdf-o" aria-hidden="true"></i> pdf')
+document.write('      &nbsp;')
+document.write('    </div>')
+document.write('  </td>')
+document.write('</tr>')
+
+document.write('<tr><td><img class="publication_img" src="img/teaser/no-image-available.png"><p></p></td>')
+document.write('  <td class="publication_data">')
+document.write('    <div class="title"><i class="fa fa-users" aria-hidden="true"></i> Shape-Adaptive DCT for Object-Based Compression</div>')
+document.write('    <div class="authors">D. Samai, N. Doghmane, M. Bedda and L. Lucas</div>')
+document.write('    <div class="venue">International Conference on Applied Informatics (ICAI), Bordj Bou Arréridj, Algeria, November 2009.</div>')
+document.write('    <div class="links">')
+document.write('      <i class="fa fa-file-pdf-o" aria-hidden="true"></i> pdf')
+document.write('      &nbsp;')
+document.write('    </div>')
+document.write('  </td>')
+document.write('</tr>')
+
+<!-- document.write('')-->

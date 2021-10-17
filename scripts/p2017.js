@@ -1,0 +1,41 @@
+<!-- document.write('')-->
+<!-- generated on Jan 3, 2020 at 22:00 pm -->
+
+document.write('<tr><td><img class="publication_img" src="img/teaser/plos2017_teaser.png"><p></p></td>')
+document.write('  <td class="publication_data">')
+document.write('    <div class="title"><i class="fa fa-book" aria-hidden="true"></i> Nucleolar sub-compartments in motion during rRNA synthesis inhibition: Contraction of nucleolar condensed chromatin and gathering of fibrillar centers are concomitant</div>')
+document.write('    <div class="authors">P. Tchelidze, A. Benassarou, H. Kaplan, M-F. O\'Donohue, L. Lucas, C. Terryn, L. Rusishvili, G. Mosidze, N. Lalun and D. Ploton</div>')
+document.write('    <div class="venue">PLoS ONE, 12(11), 2017. DOI:10.1371/journal.pone.0187977</div>')
+document.write('    <div class="links">')
+document.write('      <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0187977" target="_blank"> <i class="fa fa-link" aria-hidden="true"></i> web</a>')
+document.write('      &nbsp;')
+document.write('      <a href="https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0187977&type=printable" target="_blank"> <i class="fa fa-file-pdf-o" aria-hidden="true"></i> pdf</a>')
+document.write('    </div>')
+document.write('  </td>')
+document.write('</tr>')
+
+document.write('<tr><td><img class="publication_img" src="img/teaser/icip2017_teaser.png"><p></p></td>')
+document.write('  <td class="publication_data">')
+document.write('    <div class="title"><i class="fa fa-users" aria-hidden="true"></i> Virtual review of large scale image stack on 3D display</div>')
+document.write('    <div class="authors">J. Sarton, N. Courilleau, Y. Remion and L. Lucas</div>')
+document.write('    <div class="venue">International Conference on Image Processing (ICIP), IEEE, Beijing, China, p 2229-2233, September 2017. DOI:10.1109/ICIP.2017.8296678</div>')
+document.write('    <div class="links">')
+document.write('      <i class="fa fa-file-pdf-o" aria-hidden="true"></i> pdf')
+document.write('      &nbsp;')
+document.write('    </div>')
+document.write('  </td>')
+document.write('</tr>')
+
+document.write('<tr><td><img class="publication_img" src="img/teaser/cdve2017_teaser.png"><p></p></td>')
+document.write('  <td class="publication_data">')
+document.write('    <div class="title"><i class="fa fa-users" aria-hidden="true"></i> USE Together, a WebRTC-based Solution for Multi-User Presence Desktop</div>')
+document.write('    <div class="authors">L. Lucas, H. Deleau, B. Battin and J. Lehuraux</div>')
+document.write('    <div class="venue">14th International Conference on Cooperative Design, Visualization and Engineering (CDVE), LNCS 10451, Mallorca, Spain, p 228-235, September 2017. DOI:10.1007/978-3-319-66805-5_29</div>')
+document.write('    <div class="links">')
+document.write('      <i class="fa fa-file-pdf-o" aria-hidden="true"></i> pdf')
+document.write('      &nbsp;')
+document.write('    </div>')
+document.write('  </td>')
+document.write('</tr>')
+
+<!-- document.write('')-->
