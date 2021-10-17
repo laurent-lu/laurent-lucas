@@ -1,0 +1,125 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size:12pt;
+	padding: 20px 20px 12px 20px;
+	color: #000000;
+}
+
+p {
+	margin-top: 12px;
+}
+
+h1{
+	font-family: 'Raleway', serif;
+	margin-bottom:20px;
+	font-size:24pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2{
+	font-family: 'Raleway', serif;
+	margin-bottom:20px;
+	font-size:16pt;
+	text-align: center;
+}
+
+h3{
+	font-family: 'Raleway', serif;
+	margin-bottom:20px;
+	font-size:14pt;
+	text-align: center;
+}
+
+h4{
+	font-family: 'Raleway', serif;
+	margin-top:20px;
+	margin-bottom:20px;
+	font-size:16pt;
+	font-weight: bold;	
+}
+
+#headshot{
+	width: 1200px;
+}
+
+#headshot1{
+	width: 100%;
+}
+
+.tab { 
+	display: inline-block; 
+	margin-left: 40px; 
+}
+
+.btn {
+  border: 2px solid #dcdcdc;
+  color: black;
+  padding: 3px 7px;
+  font-family: 'Raleway', serif;
+  font-size: 10pt;
+  text-align: left;
+}
+
+.resource {
+  background-image: linear-gradient(#ffffff, #f4f4f4);
+  background-repeat: repeat-x;
+}
+
+.resource:hover {
+  background-image: linear-gradient(#f4f4f4, #ffffff);
+  background-repeat: repeat-x;
+}
+
+.publication_data{
+	padding-left:20px;
+}
+
+.publication_img{
+	width:150px;
+}
+
+.publication_data {
+	padding-bottom:20px;
+}
+
+.publication_data .title{
+	font-weight: bold;
+}
+
+.publication_data .authors{
+	font-size: 10pt;
+	font-style: italic;
+}
+
+.publication_data .venue{
+	font-size: 10pt;
+	font-style: italic;
+}
+
+a.nav, a.nav:visited{
+	color: #6e6e6e;
+	font-weight: normal;
+}
+
+a:hover, a.nav:hover{
+	color: #0ea2ab;
+}
+
+.footer {
+  width: 100%;
+  height: 65px;
+  float: left;
+  margin-top: 25px;
+}
+
+.footer-liciis {
+  width: 20%;
+  float: left;
+}
+
+.footer-urca {
+  width: 20%;
+  float: right;
+  text-align: right;
+}
