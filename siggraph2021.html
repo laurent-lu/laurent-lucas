@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Laurent Lucas</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/astyle.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,700,600' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+</head>
+<body>
+
+<div id="main">
+    <h1>Transfer matrix based layered materials rendering</h1>
+
+    <h2>
+        <a href="#" target="_blank">Joël Randrianandrasana</a>
+        <span class="tab"></span>
+        <a href="#" target="_blank">Patrick Callet</a>
+        <span class="tab"></span>
+        <a href="index.html">Laurent Lucas</a>
+    </h2>
+
+    <h3>In <i>Transactions on Graphics (Proceedings of SIGGRAPH 2021 Technical Papers)</i></h3>
+
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+            <center><img id="headshot" src="img/siggraph2021.png" class="img-thumbnail"></center>
+            <p class="text-justify"><i>The BSDF model introduced in this paper addresses the efficient rendering of layered materials including rough interfaces and arbitrary scattering volumes based upon a transfer matrix approach. This scene depicts the ability of our model to reproduce the variety of appearances resulting from these material configurations.</i></p>
+        </div>
+        <div class="col-sm-1"></div>
+    </div> 
+
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-8">
+            <h4>Abstract</h4>
+            <p class="text-justify">A statistical multi-lobe approach was recently introduced in order to efficiently handle layered materials rendering as an alternative to expensive general-purpose approaches. However, this approach poorly supports scattering volumes as the method does not account for back-scattering and resorts to single scattering approximations. In this paper, we address these limitations with an efficient solution based upon a transfer matrix approach which leverages the properties of the Henyey-Greenstein phase function. Under this formalism, each scattering component of the stack is described through a lightweight matrix, layering operations are reduced to simple matrix products and the statistics of each BSDF lobe accounting for multiple scattering effects are obtained through matrix operators. Based on this representation, we leverage the versatility of the transfer matrix approach to efficiently handle forward and backward scattering which occurs in arbitrary layered materials. The resulting model enables the reproduction of a wide range of layered structures embedding scattering volumes of arbitrary depth, in constant computation time and with low variance.</p>
+        </div>
+        <div class="col-sm-2">
+            <h4>Resources</h4>
+            <a class="btn resource btn-block" href="#" role="button"><i class="fa fa-file-pdf-o fa-fw" aria-hidden="true"></i> Paper (20.1 MB)</a>
+            <a class="btn resource btn-block" href="#" role="button"><i class="fa fa-file-video-o fa-fw" aria-hidden="true"></i> Video (86.1 MB)</a>
+            <a class="btn resource btn-block" href="#" role="button"><i class="fa fa-file-pdf-o fa-fw" aria-hidden="true"></i> Supplemental (86.1 MB)</a>
+            <a class="btn resource btn-block" href="#" role="button"><i class="fa fa-code fa-fw" aria-hidden="true"></i> Code</a>
+            <a class="btn resource btn-block" href="https://dl.acm.org/doi/10.1145/3450626.3459859" target="_blank" role="button"><i class="fa fa-external-link fa-fw" aria-hidden="true"></i> Publisher version</a>
+            <a class="btn resource btn-block" href="#" role="button"><i class="fa fa-quote-left fa-fw" aria-hidden="true"></i> Cite</a>
+        </div>
+        <div class="col-sm-1"></div>
+    </div> 
+
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+            <h4>Video</h4>
+            <center>
+                <video id="headshot1" preload="none" controls="controls" poster="img/teaser-video.png" style="margin-bottom: 2em;">
+                    <source src="img/202004-siggraph_poster-video-1920x1080.mp4" type="video/mp4"/>
+                    <p>Your browser does not support playing this video. Please download the video below.</p>
+                </video>
+            </center>
+        </div>
+        <div class="col-sm-1"></div>
+    </div> 
+
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+            <h4>Text citation</h4>
+            <p>Joël Randrianandrasana, Patrick Callet, and Laurent Lucas. 2021. Transfer matrix based layered materials rendering. In ACM Trans. on Graph. (Proceedings of SIGGRAPH), 40(4), Article 177 (August 2021), 16 pages. DOI:https://dl.acm.org/doi/10.1145/3450626.3459859</p>
+        </div>
+        <div class="col-sm-1"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+            <h4>BibTeX entry</h4>
+            <pre>@inproceedings{Randrianandrasana:2021,
+    author = {Randrianandrasana, Joël and Callet, Patrick and Lucas, Laurent},
+    title = {Transfer matrix based layered materials rendering},
+    journal = {ACM Transactions on Graphics (Proceedings SIGGRAPH)},
+    volume = {40},
+    number = {4},
+    month = {August},
+    year = {2021},
+    doi = {10.1145/3450626.3459859}
+}</pre>
+        </div>
+        <div class="col-sm-1"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+            <h4>Acknowledgements</h4>
+            <p>The authors would like to thank Jonathan Dupuy and Laurent Belcour for their comments and feedback at the early stage of this project. Thanks also to Philippe Porral, Thomas Muller, and Loïs Mignard-Debise for their support during the writing of this paper. The authors finally thank the Image Center of the University of Reims Champagne-Ardenne and Hervé Deleau for his technical support.</p>
+        </div>
+        <div class="col-sm-1"></div>
+    </div>
+</div>
+
+<div class="footer">
+        <hr style = "margin-bottom: 15px;">
+        <div class="footer-liciis">
+            <a href="https://liciis.univ-reims.fr" target="_blank">LICIIS</a>
+        </div>
+        <div class="footer-urca">
+            <a href="https://www.univ-reims.fr/" target="_blank">URCA</a>
+        </div>
+</div>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
