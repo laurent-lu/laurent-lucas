@@ -8,7 +8,36 @@
     <link rel="stylesheet" href="css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,700,600' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
 </head>
+
+<script>
+jQuery(document).ready(function($){
+    size_li = $("#myList li").length;
+    x=10;
+    $('#myList li:lt('+x+')').show();
+    $('#loadMore').click(function () {
+        x= (x+5 <= size_li) ? x+5 : size_li;
+        $('#myList li:lt('+x+')').show();
+         $('#showLess').show();
+        /*if(x == size_li){
+            $('#loadMore').hide();
+        }*/
+    });
+    $('#showLess').click(function () {
+        x=(x-5<0) ? 3 : x-5;
+        x= (x<= 10) ? 10 : x;
+        //alert(x);
+        $('#myList li').not(':lt('+x+')').hide();
+        $('#loadMore').show();
+         $('#showLess').show();
+        /*if(x == 3){
+            $('#showLess').hide();
+        }*/
+    });
+});
+</script>
+
 <body>
 
 <div id="main_body">
@@ -31,6 +60,11 @@
         </p>
         <p>
         	<i class="fa fa-phone"></i> +33(0)3 2691 8452
+        </p>
+        <p>
+          <h6>
+            <a href="https://twitter.com/URCALucas" target="_blank" class="badge badge-primary"><i class="fa fa-twitter"></i> Follow @URCALucas</a>
+          </h6>
         </p>
         <p>
         	Find me on <a href="https://scholar.google.com/citations?user=BKXPYIYAAAAJ" target="_blank">Google Scholar</a>,
@@ -124,13 +158,13 @@
     <div class="row">
       <div class="col-lg-4">
         <p>
-          &#x25cf; Joël Randrianandrasana (Dec. 17, 2020)<br />
-          &#x25cf; Nicolas Courilleau (Sept. 1, 2019)<br />
-          &#x25cf; Jonathan Sarton (Nov. 28, 2018)<br />
-          &#x25cf; Ludovic Blache (Apr. 20, 2016)<br />
-          &#x25cf; Benjamin Battin (Jul. 4, 2012)<br />
-          &#x25cf; Jessica Jonquet (Mar. 9, 2011)<br />
-          ...
+          &#x25cf; Joël Randrianandrasana<br />
+          &#x25cf; Nicolas Courilleau<br />
+          &#x25cf; Jonathan Sarton<br />
+          &#x25cf; Ludovic Blache<br />
+          &#x25cf; Benjamin Battin<br />
+          &#x25cf; Jessica Jonquet<br />
+          &#x25cf; ...
         </p>
       </div>
       <div class="col-lg-8">
@@ -147,16 +181,28 @@
 
     <p><i class="fa fa-terminal" aria-hidden="true"></i><strong> News</strong></p>
 
-    <div class="row">
-      <div class="col-lg-12">
-        <p>
-          &#x25cf; Apr. 25, 2022: start of <a href="https://eg2022.univ-reims.fr/" target="_blank">Eurographics</a> in Reims<br />
-          &#x25cf; Aug. 13, 2021: our first paper <a href="siggraph2021.html" target="_blank">Transfer matrix based layered materials rendering</a> is presented at Siggraph 2021.<br />
-          &#x25cf; Jul. 2021: <a href="#" target="_blank">LUCE</a> is the winner of the ANR 2022 generic project call.<br />
-          &#x25cf; Oct. 24, 2019: our first paper <a href="#" target="_blank">Interactive Visualization and On-Demand Processing of Large Volume Data: A Fully GPU-Based Out-Of-Core Approach</a> is presented as invited paper at IEEE Vis 2019.<br />
-        </p>
-      </div>
-    </div>
+    <ul id="myList">
+      <li>Apr. 25, 2022: Beginning of <a href="https://eg2022.univ-reims.fr/" target="_blank">EUROGRAPHICS</a> in Reims</li>
+      <li>Oct. 18, 2021: Robin Rouphael joins us for 2-year as part of the NUANCE project. Welcome!</li>
+      <li>Oct. 15, 2021: Mathieu Noizet joins us for a PhD thesis. Welcome!</li>
+      <li>Aug. 13, 2021: Our first SIGGRAPH paper - <a href="siggraph2021.html" target="_blank">Transfer matrix based layered materials rendering</a> - is presented today.</li>
+      <li>Jul. 2021: <a href="#" target="_blank">LUCE</a> is the winner of the ANR 2022 generic project call.</li>
+      <li>Apr. 5, 2021: One paper accepted at <a href="https://s2021.siggraph.org/" target="_blank">SIGGRAPH 2021</a> on layered materials rendering.</li>
+      <li>Mar. 21, 2021: Florent Denef joins us for a PhD thesis. Welcome!</li>
+      <li>Dec. 17, 2020: Joël Randrianandrasana defended his PhD, congrats Joël!</li>
+      <li>Nov. 1, 2020: Welcome Alexandre-Barff joins us for a PhD thesis. Welcome!</li>
+      <li>Jun. 17, 2020: One poster accepted at <a href="https://s2020.siggraph.org/" target="_blank">SIGGRAPH 2020</a>.</li>
+      <li>Oct. 24, 2019: Our paper <a href="#" target="_blank">Interactive Visualization and On-Demand Processing of Large Volume Data: A Fully GPU-Based Out-Of-Core Approach</a> is presented as invited paper at IEEE Vis 2019.</li>
+      <li>Sept. 1, 2019: Nicolas Courilleau defended his PhD, congrats Nicolas!</li>
+      <li>Mar. 18, 2019: New journal paper in <a href="https://www.computer.org/csdl/journal/tg" target="_blank">IEEE TVCG</a> about GPU-based out-of-core visualization is accepted.</li>
+      <li>Nov. 28, 2018: Jonathan Sarton defended his PhD, congrats Jonathan!</li>
+      <li>Apr. 20, 2016: Ludovic Blache defended his PhD, congrats Ludovic!</li>
+      <li>Jul. 4, 2012: Benjamin Battin defended his PhD, congrats Benjamin!</li>
+      <li>Mar. 9, 2011: Jessica Jonquet defended his PhD, congrats Jessica!</li>
+      <li>...</li>
+    </ul>
+    <div style="display: inline-block;" id="loadMore">More news </div> /
+    <div style="display: inline-block;" id="showLess">Less news</div>
 
     </td></tr></table>
 </div>
