@@ -89,3 +89,40 @@ a.nav, a.nav:visited{
 a:hover, a.nav:hover{
 	color: #0ea2ab;
 }
+
+ul{
+	list-style: none;
+	padding-left: 1em;
+}
+
+li::before{
+	content: "\25CF";
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em
+}
+
+#myList li{
+	display:none;
+}
+
+#loadMore{
+	color: #007bff;
+    cursor:pointer;
+}
+
+#loadMore:hover{
+	color: #0ea2ab;
+    text-decoration:underline;
+}
+
+#showLess{
+	color: #007bff;
+    cursor:pointer;
+    display:none;
+}
+
+#showLess:hover{
+	color: #0ea2ab;
+    text-decoration:underline;
+}
